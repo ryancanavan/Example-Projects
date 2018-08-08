@@ -1,0 +1,14 @@
++----------------------------------------------------------+
+|               | Preorder Traversal | Postorder Traversal |
+|---------------|--------------------|---------------------|
+|Loc Tree(h=2)  |       0.007        |        0.007        |
+|---------------|--------------------|---------------------|
+|Loc Tree(h=3)  |       0.002        |        0.002        |
+|---------------|--------------------|---------------------|
+|Lcrs Tree(h=2) |       0.008        |        0.015        |
+|---------------|--------------------|---------------------|
+|Lcrs Tree(h=3) |       0.001        |        0.002        |
++----------------------------------------------------------+
+                 h= height of the tree
+
+The times for all of my traversals were very short because the trees that I used for testing were not very large, however, I did notice that there is no difference in times between pre and postorder traversals of the tree. The lcrs tree implementation took longer than the loc tree. I also noitced that for the trees of height 3 the times are very short, however, I believe that is due to an error in the code and not the real results as a larger tree should take longer to traverse.
